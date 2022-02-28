@@ -6,4 +6,6 @@ In brief, this script will prevent built in Windows utilities from accessing the
 
 I'm in the process of testing these in my environment and will make some comments if I discover any issues with a particular executable. Cscript and WMI blocks may be tricky or impossible to block using just a firewall rule.
 
-I would like to credit this repository for my starting base rule set: https://github.com/atlantsecurity/windows-hardening-scripts/blob/main/windows-11-hardening-script . The executables in the firewall configuration found in this script are what inspired me to write this PowerShell script.
+I would like to credit these projects:
+- https://github.com/atlantsecurity/windows-hardening-scripts/blob/main/windows-11-hardening-script . The executables in the firewall configuration found in this script are what inspired me to write this PowerShell script.
+- https://lolbas-project.github.io/# - Good list of binaries to block
