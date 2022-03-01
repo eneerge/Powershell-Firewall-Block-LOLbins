@@ -11,3 +11,6 @@ I would like to credit these projects:
 - https://github.com/atlantsecurity/windows-hardening-scripts/blob/main/windows-11-hardening-script . The executables in the firewall configuration found in this script are what inspired me to write this PowerShell script.
 - https://lolbas-project.github.io/# - Good list of binaries to block
 - https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/microsoft-recommended-block-rules
+
+
+Update: It seems that the built-in Windows Defender real-time protection prevents a lot of the LOLbin attacks already.
