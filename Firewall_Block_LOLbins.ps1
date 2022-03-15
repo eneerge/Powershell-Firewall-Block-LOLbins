@@ -3,7 +3,7 @@ Import-Module -Name 'NetSecurity'
 # [ config ]
 
 # This will set a prefix for the rule name so it can be easily identified in the Windows Firewall wf.msc.
-$rulePrefix = "#LOLbins - "
+$rulePrefix = "#LOLbins"
 
 # If set to $false, rules will not be created for apps that do not exist on the computer.
 # If set to $true, rules will be created even for apps that do not exist
