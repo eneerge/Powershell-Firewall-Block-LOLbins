@@ -88,7 +88,7 @@ function CreateSystemBlockRule {
 
 # CreateBlockRule blocks the specific application path without searching for alternative locations
 CreateBlockRule -ruleName "AppVLP.exe - Application Virtualization Utility Included with Microsoft Office (x64 Office)" -exePath "$env:ProgramFiles\Microsoft Office\root\client\AppVLP.exe"
-CreateBlockRule -ruleName "AppVLP.exe - Application Virtualization Utility Included with Microsoft Office" -exePath "${env:ProgramFiles(x86)}\Microsoft Office\root\client\AppVLP.exe"
+CreateBlockRule -ruleName "AppVLP.exe - Application Virtualization Utility Included with Microsoft Office" -exePath "$env:ProgramFiles(x86)\Microsoft Office\root\client\AppVLP.exe"
 
 # CreateSystemBlockRule will look for alternative locations of the specified executable and block all that is found.
 CreateSystemBlockRule -exeFile "at.exe"
